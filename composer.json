@@ -1,0 +1,27 @@
+{
+    "name": "alopez/php-configuration-loader",
+    "description": "A simple PHP Class which aims to make configuration files handling easier.",
+    "keywords": ["php","conf","configuration","service","loader"],
+    "homepage": "https://github.com/Asakuura/php-configuration-loader",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Alexandre Lopez",
+            "email": "alexandrelpz67@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConfigurationLoader\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "^1.6",
+        "phpunit/phpunit": "^6.0"
+    }
+}
